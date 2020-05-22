@@ -1,0 +1,39 @@
+table{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	border-spacing: center;
+}
+
+td{
+	width: 48px;
+	height: 48px;
+}
+
+.a{
+	background-color: grey;
+}
+
+.b{
+	background-color: rgb(37,150,255);
+}
+
+.c{
+	background-color: lightgreen;
+}
+
+.d{
+	background-color: red;
+}
+
+
+td:not(.a):hover{
+	border-radius: 25%;
+	background-color: pink;
+	transition: 0.1s ease-out;
+}
+
+td:not(.a){
+	border-radius: 0%;
+	transition: 2s ease-out;
+}

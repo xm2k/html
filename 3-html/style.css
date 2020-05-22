@@ -1,0 +1,15 @@
+table{
+	border: 2px solid green;
+	text-align: center;
+}
+
+td{
+	border:1px solid red;
+	background-color: white;
+	transition: 0.7s ease-in;
+}
+
+td:hover{
+	background-color: blue;
+	transition: 0.7s ease-out;
+}

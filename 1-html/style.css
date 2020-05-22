@@ -1,0 +1,29 @@
+.can{
+	color: green;
+}
+
+.eat{
+	color: red;
+}
+
+.seat{
+	color: blue;
+}
+.sleap{
+	color: pink;
+}
+
+#shad:hover{
+	text-shadow:2px -5px 6px red;
+}
+
+img:hover{
+	height: 700px;
+
+
+
+	transition: 0.5s ease-in-out;
+
+
+
+}
